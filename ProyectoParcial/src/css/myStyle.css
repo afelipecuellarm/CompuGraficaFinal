@@ -1,0 +1,21 @@
+body { 
+    margin: 0; 
+}
+
+.webgl{
+    width: 100%;
+    height: 100%;
+}
+
+.buttonRegresar{
+
+    padding: 10px 15px;
+    border: 0;
+    font-size: 20px;
+    outline: none;
+    background-color: #303030;
+    color: white;
+    border-radius: 3px;
+    width: 100%;
+
+}

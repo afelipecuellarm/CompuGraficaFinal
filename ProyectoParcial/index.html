@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First THREE JS</title>
+    <link rel="icon" href="./img/Logonuevo.png">
+    <link rel="icon" href="./src/img/Logonuevo.png" type="image/png">
+    <!--Bootstrap-->
+    
+    <!-- Add all for GUI -->
+    <script src="./src/libs/jquery-1.11.1.js"></script>
+    <script src="./src/libs/three.js"></script>
+    <script src="./src/libs/DAT.GUI.min.js"></script>
+    <script src="./src/libs/Stats.js"></script>    
+    <!-- CSS only -->    
+    <link rel="stylesheet" href="./src/css/myStyle.css">
+    <!-- Data GUI -->
+    <script src="./src/libs/DAT.GUI.min.js"></script>
+    <!-- With this line of code we can have the basic code of THREEJS-->
+    <script src="./src/libs/build/three.min.js"></script>
+    <!-- Controls -->
+    <script src="./src/vendors/three.js-master/build/three.min.js"></script>
+    <!-- load(MTL,OBJ) -->
+    <script src="./src/libs/load/OBJLoader.js"></script>
+    <script src="./src/libs/load/MTLLoader.js"></script>
+    <script src="./src/libs/controls/OrbitControls.js"></script>
+    <!-- With this import of js file, We can apply the elements of THREEJS-->
+    <script src="./src/js/main.js"></script>
+</head>
+
+<body onload="start()">
+
+  <button class="buttonRegresar" onclick="location.href='./menu.html'" type="button2">Regresar</button>
+  <canvas width="1000" height="800" class="webgl"></canvas>
+</body>
+
+</html>
+
+<!--<a class="navbar-brand" href="./menu.html">
+  <img src="./img/icono1.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+  Regresar
+</a>-->
